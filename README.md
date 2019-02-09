@@ -1,4 +1,4 @@
-Node SLIM with PhantomJS and Git
-================================
+Node SLIM Git
+=============
 
-Now on github
+
