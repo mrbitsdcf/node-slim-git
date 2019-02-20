@@ -1,7 +1,8 @@
-FROM node:10.15-jessie-slim
+FROM node:lts-slim
 LABEL "Maintainer"="MrBiTs"
 LABEL "e-mail"="mrbits.dcf@gmail.com"
-LABEL "version"="0.0.1"
+LABEL "version"="0.0.2"
 
-RUN apt-get update && apt-get -y install git
+RUN apt-get update && apt-get install -y --no-install-recommends git
+
 
